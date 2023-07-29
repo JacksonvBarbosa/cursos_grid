@@ -1,0 +1,23 @@
+body {
+    display: grid;
+    grid-template-areas: 
+    "aside header" /*1º linha e coluna do grid nessa ordem*/
+    "aside main"; /*2º linha e coluna do grid nessa ordem*/
+        /*As ordens na página acaba não seguindo essa ordem
+        ela fica desorganizada então vamos ajsutar  nomeando as tags
+        com as classes delas*/
+    grid-template-columns: auto 1fr;
+
+    .cabecalho {
+        grid-area: header;
+    }
+
+    .menu-lateral {
+        grid-area: aside;
+    }
+
+    .principal {
+        grid-area: main;
+    }
+
+}
