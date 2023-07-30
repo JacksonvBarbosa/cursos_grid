@@ -37,7 +37,7 @@ body {
 .container {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
-    
+
 }
 
 
@@ -50,7 +50,7 @@ body {
     width: 230px;
 }
 
-.menu-lateral__link::before  {
+.menu-lateral__link::before {
     padding-left: 1rem;
     padding-right: .5rem;
     vertical-align: middle;
@@ -111,7 +111,7 @@ body {
     font-size: 1.5rem;
 }
 
-.cartao__titulo{
+.cartao__titulo {
     font-weight: 700;
     line-height: 22px;
 }
@@ -155,6 +155,7 @@ body {
     height: 133px;
     margin-bottom: .5rem;
 }
+
 .secao-vertical .cartao__subtitulo {
     margin-top: .75rem;
 }
@@ -167,6 +168,7 @@ body {
     width: 100vw;
     opacity: 0.9;
 }
+
 .navbar__items {
     width: 80%;
     margin: .5rem auto;
@@ -195,3 +197,51 @@ body {
     content: url("../img/icone-biblioteca-mb.svg");
 }
 
+/*rodape*/
+.rodape {
+    background-color: var(--azul-medio);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+}
+
+/* Genericos como barra, botao, etc) */
+.rodape__barra {
+    position: relative;
+    opacity: 0.9;
+    border-radius: 10px;
+    background-color: white;
+    height: 4px;
+}
+
+.rodape__barra div {
+    position: absolute;
+    top: 0;
+    height: 4px;
+    border-radius: 10px;
+    opacity: 0.35;
+    background-color: white;
+}
+
+.rodape__horario {
+    font-size: .75rem;
+}
+
+.barra__container--reproducao,
+.rodape__barra--reproducao div {
+    width: 37vw
+}
+
+.rodape__barra--reproducao {
+    width: 25vw;
+}
+
+.barra__container--volume,
+.rodape__barra--volume div {
+    width: 8vw;
+}
+
+.rodape__barra--volume {
+    width: 4vw;
+}
